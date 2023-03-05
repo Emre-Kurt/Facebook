@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    min-width: 50rem;
+}
+#main{
+    
+    height: 72rem;
+    padding-top: 7.2rem;
+    padding-bottom: 11.2rem;
+    width: auto;
+    min-width: 50rem;
+}
+#container{
+    
+    margin:auto;
+    height: 55rem;
+    padding: 6rem 0;
+   max-width: 95rem;
+   
+} 
+
+#div1{
+   
+    width:53rem;
+    height:20rem;
+    float: left;
+    margin-top: 7rem;
+    
+    
+}
+#inputdiv{
+    
+    width:40rem;
+    float: right;
+    background-color: #fff;
+    padding:1.8rem 1.6rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin-top: 5rem;
+    margin-bottom: 2.8rem;
+}
+#div2{
+    width:40rem ;
+    height:51rem ;
+    float: right;
+   
+    margin-top: -5rem;
+   
+    
+}
+.b{
+    background-color: #f0f2f5;
+}
+#img1{
+    width: auto;
+    height: 10.6rem;
+    margin: -2.8rem;
+    
+}
+#descrb{
+    font-size: 2.8rem;
+    margin-top: 2rem;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #1c1e21;
+    
+}
+.inputdiv{
+    margin:auto;
+    width: 100%;
+    
+    font-size: 1.7rem;
+    padding: 1.6rem 0;
+}
+
+.common{
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 0.6rem;
+    
+}
+.input{
+    
+    font-size: 1.7rem;
+    padding:1.4rem 1.6rem;
+    border: 1px solid #dddfe2;
+}
+#login{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    height: 4.7rem;
+    color: #fff;
+    background-color: #1877f2;
+}
+#link{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    height: 4rem;
+    text-decoration: none;
+    color: #1877f2;
+}
+.hr1{
+    
+    margin: auto;
+    border-bottom: 1px solid #dadde1;
+    height: 1px;
+    
+}
+#new{
+    background-color: #47b72a;
+    width: 19rem;
+    margin: 2.5rem auto 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+    height: 4.7rem;
+}
+#p1{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    
+    }
+#p1>a{
+    text-decoration: none;
+    color: #1c1e21;
+    font-weight: 600;
+    
+}
+#footer{
+    height: 18rem;
+    
+    padding:3rem 15% ;
+    
+}
+#footer1{
+
+width: 100%;
+height: 13rem;
+margin: auto;
+max-width: 95rem;
+
+}
+#ul1{
+    margin-bottom: 1.2rem;
+}
+#ul1>li{
+    display: inline;
+   
+}
+.li1>a{
+    text-decoration: none;
+    color: #8a8d91;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    padding: 4px;
+}
+#ul2>li{
+    display: inline;
+    
+}
+#ul2{
+    margin-top: 0.5rem;
+    
+    height: 7rem;
+   line-height: 2rem;
+}
+.li2>a{
+    text-decoration: none;
+    color: #8a8d91;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    padding: 7px;
+    }
+#bottom{
+    color: #737373;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 1.5rem;
+}
+.input:focus{
+    border-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+   
+}
+@media only screen and (max-width: 1300px){
+
+    #container{
+        margin: 0 5rem 0 5%;
+        
+       } 
+
+       #descrb{
+        font-size: 2.2rem;
+        }
+    #div1{
+        width:40rem;
+     }
+}
+
+@media only screen and (max-width: 930px) {
+    #main{
+   padding-top: 0.1rem;
+    }
+    #container{
+    display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:71rem ;
+       padding-bottom: 10rem;
+    }
+    #div1{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -2rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        
+    }
+    
+    #div2{
+        flex-direction: column;
+        align-items: center;
+       margin-top: -4rem;
+    }
+    #descrb{
+        font-size: 2.4rem;
+        margin-top: 2rem;
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        
+    }
+    #inputdiv{
+    
+        
+        margin-top: 4rem;
+        
+    }
+   
+}
